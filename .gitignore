@@ -1,1 +1,23 @@
-node_modules
+nod_ modules
+dist
+
+#Environment variables
+.env
+.env.*
+
+#Logs
+logs
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+#OS files
+.DS_Store
+
+#IDE
+.vscode
+.idea
+
+#Swap files
+*.swp
