@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Sidebar from './components/Sidebar';
 import ChatArea from './components/ChatArea';
 import { useChat } from './hooks/useChat';
@@ -39,6 +40,7 @@ export default function App() {
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
         onNewChat={createNewChat}
       />
+      <SpeedInsights />
     </div>
   );
 }
